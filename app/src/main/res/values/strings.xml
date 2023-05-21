@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CreationWidget</string>
+    <string name="appwidget_text">Mo widget saioo</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>

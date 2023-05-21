@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.CreationWidget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tiempo"
+    android:theme="@style/Theme.CreationWidget.AppWidgetContainer"
+    android:id="@+id/frmWidget">
+
+    <Button
+        android:id="@+id/lblhora"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="11dp"
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="00:00:00 AM" />
+
+    <TextView
+        android:id="@+id/lblfecha"
+        android:layout_width="63dp"
+        android:layout_height="48dp"
+        android:textSize="13dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="152dp"
+        android:background="#ff4d8e"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="00:00:00 AM" />
+
+    <TextView
+        android:id="@+id/lblMensaje2"
+        android:layout_width="55dp"
+        android:layout_height="75dp"
+        android:textSize="30dp"
+        android:background="#90827b"
+        android:textColor="#ffe820"
+        android:gravity="center"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="138dp"
+        android:textStyle="bold"
+        android:text="78" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="137dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblMensaje"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:background="#90827b"
+            android:textColor="#ffe820"
+            android:textStyle="bold"
+            android:text="Mensaje Recibido" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Datos">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/miwidget" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:text="Ciudad:" />
+
+        <EditText
+            android:id="@+id/txtEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:text="Temperatura:" />
+
+        <EditText
+            android:id="@+id/txtEnviar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:inputType="textPersonName"
+            android:text="" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rowCount="2"
+            android:columnCount="2">
+            <Button
+                android:id="@+id/btnAceptar"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:text="Aceptar" />
+
+            <Button
+                android:id="@+id/btnCancelar"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:text="Cancelar" />
+
+
+
+
+        </GridLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
